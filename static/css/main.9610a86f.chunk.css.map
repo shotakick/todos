@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,YACE,UACF,CAEA,QACE,WACF,CAEA,MACE,QACF","file":"main.9610a86f.chunk.css","sourcesContent":[".todoapp h1 {\n  top: -130px;\n}\n\n.footer {\n  height: 40px;\n}\n\n.info {\n  margin: 0;\n}\n"]}
