@@ -1,6 +1,8 @@
 # todos+α
 React+TypeScriptによる簡易TODOアプリケーション実装
 
+- [GitHub](https://github.com/shotakick/todos)
+
 ## 仕様
 [TodoMVC](http://todomvc.com/)で公開されている[サンプルアプリケーション](http://todomvc.com/examples/react/#/)と同等の機能+αをReact+TypeScriptで実装する。
 +αとして追加する機能は以下のとおり。
