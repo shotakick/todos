@@ -1,0 +1,79 @@
+設計:
+  ✔ 仕様決め @done(19-04-28 11:20)
+  ✔ 技術選定 @done(19-04-28 16:58)
+  ✔ コンポーネント設計 @done(19-04-28 21:06)
+
+準備:
+  ✔ 環境構築 @done(19-04-28 17:54)
+
+基本機能実装:
+  ✔ モデル @done(19-05-01 13:44)
+    ✔ todo @done(19-05-01 13:44)
+  ✔ 状態管理 @done(19-05-01 15:28)
+    ✔ todos @done(19-05-01 15:28)
+  ✔ 画面 @done(19-05-02 15:53)
+    ✔ App @done(19-04-28 21:07)
+      ✔ TodoApp @done(19-04-28 21:20)
+        ✔ MainWindow @done(19-05-01 14:29)
+          ✔ MainHeader - container @done(19-05-01 14:18)
+            ✔ MainHeader - presentational @done(19-05-01 14:18)
+              ✔ TodoTextEditor @done(19-05-02 02:54)
+          ✔ MainContents - container @done(19-05-01 14:29)
+            ✔ MainContens - presentational @done(19-05-01 14:29)
+              ✔ TodoList - container @done(19-05-01 15:45)
+                ✔ TodoList - presentational @done(19-05-01 15:45)
+                  ✔ TodoItem - container @done(19-05-02 01:56)
+                    ✔ TodoItem - presentational @done(19-05-02 01:56)
+                      ✔ TodoTextEditor @done(19-05-02 00:56)
+          ✔ MainFooter - container @done(19-05-02 19:58)
+            ✔ MainFooter - presentational @done(19-05-02 19:58)
+      ✔ AppFooter @done(19-04-29 21:37)
+  ✔ ルーティング機能 @done(19-05-02 19:57)
+  ✔ Web Storage管理 @done(19-05-06 12:07)
+    ✔ 保存機能 @done(19-05-04 13:41)
+    ✔ 読込機能 @done(19-05-06 12:06)
+
+詳細表示機能実装:
+  ✔ 画面 @done(19-05-03 00:11)
+    ✔ DetailWindow - container @done(19-05-03 00:11)
+      ✔ DetailWindow - presentational @done(19-05-03 00:11)
+  ✔ リンク追加 @done(19-05-03 00:11)
+    ✔ TodoItem - presentational @done(19-05-03 00:11)
+  ☐ ルーティング追加 @done(19-05-03 00:11)
+    ☐ TodoApp @done(19-05-03 00:11)
+
+ログイン機能実装:
+  ✔ 設計 @done(19-05-05 23:26)
+  ✔ ログイン状態管理 @done(19-05-06 12:06)
+    ✔ auth @done(19-05-06 12:06)
+  ✔ ログイン処理 @done(19-05-06 12:06)
+    ✔ クライアント処理 @done(19-05-06 12:06)
+    ✔ サーバー処理 @done(19-05-06 12:06)
+  ✔ 認証処理 @done(19-05-06 12:06)
+    ✔ クライアント処理 @done(19-05-06 12:06)
+    ✔ サーバー処理 @done(19-05-06 12:06)
+  ✔ ログイン後TODO情報読込 @done(19-05-06 12:06)
+  ✔ リロード時再ログイン @done(19-05-06 12:06)
+  ✔ 画面 @done(19-05-06 12:06)
+    ✔ LoginWindow - container @done(19-05-06 12:06)
+      ✔ LoginWindow - presentational @done(19-05-06 12:06)
+  ✔ ルーティング追加 @done(19-05-06 12:06)
+    ✔ TodoApp @done(19-05-06 12:06)
+    ✔ PrivateRoute @done(19-05-06 12:06)
+  ✔ Web Storage管理 @done(19-05-06 12:06)
+    ✔ ウィンドウ間のデータ同期 @done(19-05-06 12:06)
+
+表示調整:
+  ✔ Semantic UI適用 @done(19-05-06 20:06)
+  ✔ CSS調整 @done(19-05-06 20:06)
+
+リファクタ:
+  ☐ LoginWindow: handleSubmit()
+  ☐ TodoApp: use Switch
+
+Hosting:
+  ☐ GitHub Pagesへデプロイ
+
+余裕があったら:
+  ☐ Circle CIで自動ビルド＆デプロイ
+  ☐ テスト
