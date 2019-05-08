@@ -72,7 +72,7 @@
   ☐ TodoApp: use Switch
 
 Hosting:
-  ☐ GitHub Pagesへデプロイ
+  ✔ GitHub Pagesへデプロイ @done(19-05-08 14:56)
 
 余裕があったら:
   ☐ Circle CIで自動ビルド＆デプロイ

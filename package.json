@@ -4,10 +4,12 @@
   "author": "shotakick",
   "private": true,
   "repository": "github:shotakick/todos",
+  "homepage": "https://shotakick.github.io/todos/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
