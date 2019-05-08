@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 import { configureStore } from './state/configureStore';
 import App from './views/components/App';
 
-export const history = createBrowserHistory();
+export const history = createBrowserHistory({ basename: process.env.PUBLIC_URL });
 const store = configureStore(history);
 
 ReactDOM.render(
